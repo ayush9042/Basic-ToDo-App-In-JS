@@ -150,18 +150,7 @@ btn.addEventListener("click", function (e) {
   toDoInput.value = "";
 })
 
-var today = new Date();
-var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
-var time = today.getHours() + ":" + today.getMinutes();
-var dateTime = date + ' ' + time;
 
-console.log(dateTime);
-
-
-var time = new Date();
-console.log(
-  time.toLocaleString('en-US', { hour: 'numeric', hour12: true })
-);
 
 
 
